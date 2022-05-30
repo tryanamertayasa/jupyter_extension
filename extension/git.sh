@@ -1,0 +1,1 @@
+pip install jupyterlab-git==0.34.2

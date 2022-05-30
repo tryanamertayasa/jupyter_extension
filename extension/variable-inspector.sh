@@ -1,0 +1,1 @@
+pip install lckr-jupyterlab-variableinspector==3.0.9

@@ -1,0 +1,1 @@
+pip install jupyterlab-drawio==0.9.0
