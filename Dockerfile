@@ -29,7 +29,7 @@ COPY --chown=jovyan:users requirements.txt /tmp/requirements.txt
 
 RUN python3 -m pip install -r /tmp/requirements.txt --no-cache-dir \
     && rm -f /tmp/requirements.txt
-RUN pip install "git+https://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@github.com/tiket/DATA-RANGERS-CAELUM.git@v2.0.0"
+RUN pip install "git+https://${GITHUB_OAUTH_TOKEN}@github.com/tiket/DATA-RANGERS-CAELUM.git@v2.0.0"
 RUN pip install tensorflow==2.9.0
 
 # Install Lab Extensions

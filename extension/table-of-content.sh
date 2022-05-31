@@ -1,1 +1,1 @@
-jupyter labextension install @jupyterlab/toc
+jupyter labextension install @jupyterlab/toc-extension
